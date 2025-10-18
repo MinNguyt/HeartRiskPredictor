@@ -1,4 +1,4 @@
-# Flood Forecasting Project — Hanoi (Demo)
+# Flood Forecasting Project — Hanoi
 
 This repository contains a demo project for flood forecasting using a synthetic dataset for Hanoi (2024).
 Files included:
