@@ -1,0 +1,139 @@
+{
+  "auc_score": 0.9534632034632033,
+  "cv_mean": 0.8748122248122249,
+  "cv_std": 0.0357903216887327,
+  "confusion_matrix": [
+    [
+      27,
+      6
+    ],
+    [
+      1,
+      27
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "thal",
+      "importance": 0.2184593826532364
+    },
+    {
+      "feature": "cp",
+      "importance": 0.1370849311351776
+    },
+    {
+      "feature": "ca",
+      "importance": 0.09742675721645355
+    },
+    {
+      "feature": "risk_score",
+      "importance": 0.09410519152879715
+    },
+    {
+      "feature": "slope",
+      "importance": 0.06545903533697128
+    },
+    {
+      "feature": "sex",
+      "importance": 0.061188917607069016
+    },
+    {
+      "feature": "oldpeak",
+      "importance": 0.041501205414533615
+    },
+    {
+      "feature": "thalach",
+      "importance": 0.040818747133016586
+    },
+    {
+      "feature": "fbs",
+      "importance": 0.03869802504777908
+    },
+    {
+      "feature": "age",
+      "importance": 0.03756122663617134
+    },
+    {
+      "feature": "restecg",
+      "importance": 0.03548702970147133
+    },
+    {
+      "feature": "exang",
+      "importance": 0.03478429093956947
+    },
+    {
+      "feature": "trestbps",
+      "importance": 0.03390764445066452
+    },
+    {
+      "feature": "bmi_proxy",
+      "importance": 0.0334358736872673
+    },
+    {
+      "feature": "chol",
+      "importance": 0.03008181042969227
+    }
+  ],
+  "shap_importance": [
+    {
+      "feature": "ca",
+      "shap_importance": 0.06065573770491802
+    },
+    {
+      "feature": "cp",
+      "shap_importance": 0.0524590163934426
+    },
+    {
+      "feature": "sex",
+      "shap_importance": 0.019672131147540982
+    },
+    {
+      "feature": "slope",
+      "shap_importance": 0.014754098360655754
+    },
+    {
+      "feature": "trestbps",
+      "shap_importance": 0.008196721311475419
+    },
+    {
+      "feature": "thal",
+      "shap_importance": 0.006557377049180335
+    },
+    {
+      "feature": "exang",
+      "shap_importance": 0.0049180327868852515
+    },
+    {
+      "feature": "oldpeak",
+      "shap_importance": 0.0049180327868852515
+    },
+    {
+      "feature": "age",
+      "shap_importance": 0.0032786885245901674
+    },
+    {
+      "feature": "fbs",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "restecg",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "risk_score",
+      "shap_importance": -0.0016393442622950837
+    },
+    {
+      "feature": "chol",
+      "shap_importance": -0.0032786885245901674
+    },
+    {
+      "feature": "thalach",
+      "shap_importance": -0.0049180327868852515
+    },
+    {
+      "feature": "bmi_proxy",
+      "shap_importance": -0.008196721311475419
+    }
+  ]
+}
